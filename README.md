@@ -59,7 +59,7 @@ Gestiona el almacenamiento y recuperación de información mediante interfaces y
 ## Principios SOLID Aplicados
 * **SRP (Single Responsibility Principle):**  Cada clase debe tener una única responsabilidad o motivo para cambiar. (Pelicula, Sala, CineService, CineUI, DAO's)
 * **OCP (Open/Closed Principle):** Las clases están abiertas a extensión pero cerradas a modificación. Decorator permite agregar funcionalidades a las entradas sin modificar la clase base.
-* **LSP ():** Las clases derivadas o implementaciones de una interfaz deben poder sustituir a sus padres sin afectar el comportamiento del programa. (PeliculaDaoImpl, SalaDaoImpl, Los decoradores (DescuentoTercerEdad) pueden sustituir a EntradaDecorator.
+* **LSP (Liskov Substitution Principle):** Las clases derivadas o implementaciones de una interfaz deben poder sustituir a sus padres sin afectar el comportamiento del programa. (PeliculaDaoImpl, SalaDaoImpl, Los decoradores (DescuentoTercerEdad) pueden sustituir a EntradaDecorator.
 )
 * **ISP (Interface Segregation Principle):** Interfaces específicas para cada funcionalidad (PeliculaDao, SalaDao, FuncionDao, EntradaDao, EstrategiaBusqueda).
 * **DIP (Dependency Inversion Principle):** Clases de alto nivel dependen de interfaces y no de implementaciones concretas, inyección de dependencias mediante constructores.
